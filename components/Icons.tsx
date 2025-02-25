@@ -1,26 +1,3 @@
-export function Logo() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="32"
-      height="32"
-      viewBox="0 0 100 100"
-    >
-      <circle cx="50" cy="50" r="50" fill="#F0EBD8" />
-      <text
-        x="50"
-        y="65"
-        font-family="Raleway"
-        font-size="40"
-        fill="#0D1321"
-        text-anchor="middle"
-      >
-        WS
-      </text>
-    </svg>
-  );
-}
-
 export function GitHub() {
   return (
     <svg
