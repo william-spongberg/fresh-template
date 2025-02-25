@@ -1,6 +1,14 @@
 # fresh-template
 
-Web template for use with Deno Fresh
+Web template for use with Deno Fresh. Made with ❤️ by William Spongberg.
+
+## Features
+
+- Button component
+- Icons
+- Page layouts
+- Text styles
+- Custom Google Raleway font
 
 ## Fresh project
 
