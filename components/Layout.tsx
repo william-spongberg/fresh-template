@@ -144,23 +144,15 @@ export function Header({
 interface FooterProps {
   colour?: string;
   textColour?: string;
-  authorProps?: AuthorProps;
+  author?: string;
   isBeta?: boolean;
-}
-
-interface AuthorProps {
-  name?: string;
-  link?: string;
 }
 
 export function Footer({
   colour = FOOTER_COLOUR,
   textColour = TEXT_COLOUR,
-  authorProps = {
-    name: "Author",
-    link: "/",
-  },
-  isBeta = true,
+  author = "",
+  isBeta = false,
 }: FooterProps) {
   return (
     <>
@@ -179,7 +171,7 @@ export function Footer({
             )
             : null}
           <p>
-            &copy; {authorProps.name}{" "}
+            &copy; {author}{" "}
             {new Date().getFullYear()}. All rights reserved.
           </p>
         </div>
